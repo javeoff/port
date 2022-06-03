@@ -1,0 +1,24 @@
+{
+  "name": "port",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javeoff/port.git"
+  },
+  "private": false,
+  "keywords": ["decentralized", "p2p", "web3.0"],
+  "author": "Daniil Jave",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javeoff/port/issues"
+  },
+  "homepage": "https://github.com/javeoff/port#readme",
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  }
+}
