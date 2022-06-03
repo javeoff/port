@@ -2,10 +2,12 @@
   "name": "port",
   "version": "0.0.1",
   "description": "Decentralized data transferring web system",
+  "author": "Daniil Jave",
+  "license": "ISC",
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -20,13 +22,16 @@
     "p2p",
     "web3.0"
   ],
-  "author": "Daniil Jave",
-  "license": "ISC",
+  "engines": {
+    "node": ">=14.17"
+  },
   "bugs": {
     "url": "https://github.com/javeoff/port/issues"
   },
   "homepage": "https://github.com/javeoff/port#readme",
   "devDependencies": {
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
     "prettier": "^2.6.2",
     "typescript": "^4.7.3"
   }
