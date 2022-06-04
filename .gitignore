@@ -2,6 +2,9 @@
 logs
 *.log
 
+# misc
+.DS_Store
+
 # IDE workspace directories
 .idea/
 
