@@ -1,0 +1,17 @@
+{
+  "name": "@port/eslint",
+  "version": "1.0.0",
+  "description": "ESLint configuration of the Port project",
+  "keywords": [],
+  "author": "Daniil Jave",
+  "license": "ISC",
+  "main": ".eslintrc.js",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint": "^8.17.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.eslint.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "ESNext",
+  },
+  "include": ["**/*.ts", "**/*.tsx", "**/*.js"],
+  "exclude": ["dist"]
+}
