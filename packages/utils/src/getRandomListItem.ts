@@ -1,0 +1,4 @@
+import { getRandomInt } from './getRandomInt';
+
+export const getRandomListItem = <Item>(items: Item[]): Item =>
+  items.at(getRandomInt(0, items.length) - 1) as Item;

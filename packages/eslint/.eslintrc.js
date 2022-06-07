@@ -39,5 +39,15 @@ module.exports = {
     ['react/prop-types']: 'off',
     ['react/react-in-jsx-scope']: 'off',
   },
+  overrides: [
+    {
+      files: ['*.js', '*.mjs', '*.cjs'],
+      rules: {
+        'unicorn/prefer-module': 'off',
+        '@typescript-eslint/no-var-requires': 'off',
+        'no-undef': 'off'
+      },
+    },
+  ],
   ignorePatterns: ['src/**/*.test.ts'],
 };
