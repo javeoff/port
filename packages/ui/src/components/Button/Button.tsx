@@ -1,3 +1,7 @@
-import { FC } from 'react';
+import { FC, ReactElement } from 'react';
 
-export const Button: FC = () => <div>Test Text 1</div>;
+interface IProps {
+  children: string | ReactElement | ReactElement[];
+}
+
+export const Button: FC<IProps> = ({ children }) => <div>{children}</div>;

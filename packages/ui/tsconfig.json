@@ -3,8 +3,18 @@
   "compilerOptions": {
     "baseUrl": "./",
     "lib": ["dom", "dom.iterable", "esnext"],
-    "module": "ESNext",
+    "target": "esnext",
+    "module": "commonjs",
+    "jsx": "react-jsx"
   },
-  "include": ["**/*.ts", "**/*.tsx", "**/*.js"],
-  "exclude": ["dist"]
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js",
+    ".storybook/**/*.js",
+    ".storybook/**/*.jsx",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
