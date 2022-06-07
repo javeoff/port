@@ -1,4 +1,4 @@
-import { getRandomInt } from '../src/getRandomInt';
+import { getRandomInt } from '../src/math/getRandomInt';
 
 describe('getRandomInt', () => {
   test('should return random integer', () => {

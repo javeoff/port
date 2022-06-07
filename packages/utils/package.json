@@ -18,8 +18,9 @@
   "devDependencies": {
     "@types/jest": "^28.1.1",
     "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.1",
+    "jest-localstorage-mock": "^2.4.21",
     "ts-jest": "^28.0.4",
-    "ttypescript": "^1.5.13",
     "typescript": "^4.7.3",
     "typescript-transform-paths": "^3.3.1"
   }

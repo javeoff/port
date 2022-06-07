@@ -1,4 +1,4 @@
-import { pickByKeys } from '../src/pickByKeys';
+import { pickByKeys } from '../src/object/pickByKeys';
 
 describe('pickByKeys', () => {
   test('should return random integer', () => {

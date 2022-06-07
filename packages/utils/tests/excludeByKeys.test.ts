@@ -1,4 +1,4 @@
-import { excludeByKeys } from '../src/excludeByKeys';
+import { excludeByKeys } from '../src/object/excludeByKeys';
 
 describe('excludeByKeys', () => {
   test('should return list with excluded keys', () => {
