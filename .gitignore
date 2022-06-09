@@ -10,6 +10,7 @@ logs
 
 # Dependency directories
 node_modules/
+public/docs
 
 # Optional npm cache directory
 .npm
